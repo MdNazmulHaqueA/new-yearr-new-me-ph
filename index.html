@@ -9,78 +9,80 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>New Year New Mission</title>
   </head>
   <body>
-    <!-- Header -->
-    <header class="banner-section section">
-      <!-- banner section -->
+    <!-- banner section -->
+    <header class="section bg-with-overlay">
       <div class="banner-content">
-        <h3>Happy New Year</h3>
+        <h5>Happy New Year</h5>
         <h2>New Year Party Celebration</h2>
       </div>
-      <!-- end of banner section -->
     </header>
-    <!-- End of Header -->
+    <!-- end of banner section -->
     <main>
       <!-- discount section -->
-      <section class="section">
+      <section class="section discount">
         <h1>65% OFF</h1>
-        <h5>OUR HOLIDAY DEALS ARE BETTER</h5>
-        <h3>ALL CATEGORIES</h3>
-        <img src="./images/" alt="" />
+        <h6>OUR HOLIDAY DEALS ARE BETTER</h6>
+        <h4>ALL CATEGORIES</h4>
+        <img src="./images/happy-new-year.png" alt="Happy New Year" />
       </section>
       <!-- end of discount section -->
       <!-- Party Section -->
-      <section class="section">
-        <div class="party-content">
-          <h2>Welcome to midnight party</h2>
+      <section class="party-section bg-with-overlay section">
+        <div class="party-call-to-action">
+          <h3>Welcome to midnight party</h3>
           <p>
             Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
             molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
             euismod.
           </p>
-          <button>Join Now</button>
+          <button class="join-btn">Join Now</button>
+        </div>
+        <div class="party-year-img">
+          <img src="./images/2024.png" alt="2024" />
         </div>
       </section>
       <!-- End of Party Section -->
       <!-- event section -->
-      <section class="section">
-        <h4><span>Place:</span>New Park Hotel</h4>
-        <h4><span>Date:</span>31 December Night 2023</h4>
-        <h4><span>Time:</span>Evening 7.30 pm to 12.30 am</h4>
-        <button>Join Now</button>
+      <section class="event-section section">
+        <h5><span>Place:</span> New Park Hotel</h5>
+        <h5><span>Date:</span> 31 December Night 2023</h5>
+        <h5><span>Time:</span> Evening 7.30 pm to 12.30 am</h5>
+        <button class="join-btn">Join Now</button>
       </section>
       <!-- end of event section -->
-      <!-- comming soon -->
-      <section class="section">
-        <div>
-          <h5>NEW BEST OFFER</h5>
-          <h2>Coming Soon</h2>
+      <!-- best offer -->
+      <section class="best-offer-section section">
+        <div class="best-offer">
+          <h6>NEW BEST OFFER</h6>
+          <h4>Coming Soon</h4>
           <p>
             Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
             molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
             euismod.
           </p>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div class="best-offer-img">
+          <div class="circle"></div>
+          <img src="./images/best-offer-img.png" alt="best offer image" />
         </div>
-        <div>
-          <h2>2024</h2>
+        <div class="best-offer-2024">
+          <h4>2024</h4>
           <p>
             Dolor sit amet consectetur. Consequat eget consectetur maecenas sed.
           </p>
-          <img src="" alt="" />
+          <img src="./images/new-year-offer.png" alt="New Year Offer" />
         </div>
       </section>
-      <!-- end of comming soon -->
+      <!-- end of best offer -->
       <!-- Holiday Sell -->
       <!-- <section class="section">
         <div>
           <h6>WHAT IS FUNCTIONAL</h6>
-          <h5><span>Holidays </span>Sale 50%</h5>
+          <h2><span>Holidays </span>Sale 50%</h2>
           <p>
             Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
             molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
@@ -97,39 +99,37 @@
       </section> -->
       <!-- End of holiday Sell -->
       <!-- Portfolio -->
-      <section class="section">
+      <section class="portfolio section">
         <h6>THE BEST GIFTS</h6>
-        <h2>Our Awesome Portfolio</h2>
+        <h4>Our Awesome Portfolio</h4>
         <p>
           Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
           molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
           euismod.
         </p>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <div class="showcase-portfolio">
+          <img src="./images/portfolio-img-1.png" alt="Portfolio Image" />
+          <img src="./images/portfolio-img-2.png" alt="Portfolio Image" />
+          <img src="./images/portfolio-img-3.png" alt="Portfolio Image" />
+          <img src="./images/portfolio-img-4.png" alt="Portfolio Image" />
+          <img src="./images/portfolio-img-5.png" alt="Portfolio Image" />
+          <img src="./images/portfolio-img-6.png" alt="Portfolio Image" />
         </div>
       </section>
       <!-- End of Portfolio -->
       <!-- Newsletter -->
-      <section class="section">
-        <img src="" alt="" />
-        <h2>Subscribe Newsletter</h2>
+      <section class="newsletter-subscription section">
+        <img src="./images/email.png" alt="email icon" />
+        <h4>Subscribe Newsletter</h4>
         <p>
           Dolor sit amet consectetur. Consequat eget consectetur maecenas sed
           molestie malesuada. Ipsum sed sodales risus ut pellentesque vel
           euismod.
         </p>
-        <div>
-          <form>
-            <input type="text" name="" id="" />
-            <button>Subscribe</button>
-          </form>
-        </div>
+        <form>
+          <input type="email" name="email" placeholder="user@gmail.com" />
+          <button class="subscribe-btn" type="submit">Subscribe</button>
+        </form>
       </section>
       <!-- End of Newsletter -->
     </main>
@@ -137,30 +137,30 @@
     <!-- End of Main -->
     <!-- Footer -->
     <footer>
-      <div>
+      <div class="footer-top">
         <div>
           <p>44, Big Building Roosevelt Street Beach Gardens Florida 33410</p>
         </div>
         <div>
-          <div>
-            <img src="" alt="" />
+          <div class="call">
+            <img src="./images/call.png" alt="call" />
             <p>+00 123 584 124</p>
           </div>
-          <div>
-            <img src="" alt="" />
-            <p>www.website.com</p>
+          <div class="website">
+            <img src="./images/website.png" alt="website" />
+            <a href="#">www.website.com</a>
           </div>
         </div>
       </div>
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+      <div class="social-icons">
+        <img src="./images/facebook.png" alt="facebook icon" />
+        <img src="./images/instagram.png" alt="instagram icon" />
+        <img src="./images/twitter.png" alt="twitter icon" />
+        <img src="./images/linkedin.png" alt="linkedin icon" />
       </div>
-      <div>
+      <div class="footer-bottom">
         <p>2017, All Rights Reserved.</p>
-        <button>Unsubscribe</button>
+        <button class="unsubscribe-btn">Unsubscribe</button>
       </div>
     </footer>
     <!-- End of Footer -->
