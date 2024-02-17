@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 /* common element styles */
@@ -185,7 +184,6 @@ section.discount {
 /* best offer section styles */
 .best-offer-section {
   display: flex;
-  justify-content: space-between;
 }
 .best-offer {
   align-self: flex-start;
@@ -206,6 +204,8 @@ section.discount {
   align-self: flex-center;
   position: relative;
   display: inline-block;
+  margin-left: 70px;
+  margin-right: 110px;
 }
 .circle {
   position: absolute;
